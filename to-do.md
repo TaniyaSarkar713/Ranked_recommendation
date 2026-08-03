@@ -1,5 +1,21 @@
 # To-Do — week of Jul 27 (due Fri, Jul 31, 2026)
 
+## 📌 MUST-READ — nine papers now in `References/` (added Jul 28 from the web survey)
+
+Full context: `literature_survey.md` §6 and `metrics.md` §4.2. **The first three change our novelty claims** — read before writing any "contribution" text:
+
+1. **Nova** (arXiv 2410.14255) — already runs a 5-round Swiss pairwise tournament for idea ranking → R2 narrows to the *setwise* generalization (c-way groups, soft logprob points, tuned R/c). *[Taniya + Naz]*
+2. **AI co-scientist, Gottweis et al.** (arXiv 2502.18864) — Elo with proximity-graph match scheduling, debate depth by rank → F2 must cite & differentiate (our routing = cross-agent disagreement over heterogeneous rankers, BT over a fusion prior, MRR-calibrated). *[Taniya]*
+3. **ForeSci** (arXiv 2606.00644) — temporally-controlled forward-looking benchmark (hidden post-cutoff KB, claim-F1 + ranking alignment) → closest benchmark; we differ on per-paper masking, realization-graded ranking, truly prospective pre-registration. *[Nourah + all; goes in related-work §0]*
+4. **Ideation-Execution Gap, Si et al.** (arXiv 2506.20803) — AI ideas drop 1–2 points on *every* dimension once experts execute them → our strongest motivation citation for realization-grounded ranking. *[all]*
+5. **ResearchBench** (arXiv 2503.21248) — GT-vs-15-negatives pairwise ranking accuracy → precedent our typed distractor tiers (G5) extend. *[Nourah]*
+6. **MOOSE-Chem** (arXiv 2410.07076) — the 0–5 Matched-Score rubric we adopt as the LLM tier of the G2 matching function. *[Nourah]*
+7. **Impact4Cast, Gu & Krenn** (arXiv 2402.08640) — KG forecasting of "will this concept pair be realized with ≥IR citations" → closest analog to our target; fusion feature + must-cite. *[Naz]*
+8. **GraphEval** (arXiv 2503.12600) — near-free viewpoint-graph idea scoring; synthetic-plagiarism negatives rhyme with our anachronism distractors. *[Taniya + Naz]*
+9. **FutureGen** (arXiv 2503.16561) — the direct task predecessor (author-promised GT, overlap metrics, κ=0.30) = our positioning target; borrow its NLI hallucination check for Direction Cards. *[all]*
+
+---
+
 ## Nourah — ground truth (Q1) + human expert data
 
 - [ ] Read ideas doc §G1–G6 (realization ladder, entity matching, temporal splits, distractors).
